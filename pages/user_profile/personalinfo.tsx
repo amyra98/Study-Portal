@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import UserProfileNavBar from "./navbar";
 
 const ContactPage2 = () => {
   const [submitterName, setSubmitterName] = useState("");
@@ -10,6 +11,7 @@ const ContactPage2 = () => {
   
   const ContactForm = (
     <>
+     
     <form>
       <div className="container">
        
@@ -39,6 +41,9 @@ const ContactPage2 = () => {
   );
 
   return (
+    <>
+     <UserProfileNavBar/>
+    
     <div className="container">
       <Head>
         <title>User Dashboard</title>
@@ -120,8 +125,11 @@ const ContactPage2 = () => {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
           }
         `}
+        
+        
       </style>
     </div>
+    </>
   );
 };
 

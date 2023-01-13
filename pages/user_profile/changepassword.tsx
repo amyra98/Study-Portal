@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
-
+import UserProfileNavBar from "./navbar";
 const ContactPage = () => {
   const [submitterName, setSubmitterName] = useState("");
   const router = useRouter();
@@ -22,6 +22,8 @@ const ContactPage = () => {
   );
 
   return (
+    <>
+    <UserProfileNavBar/>
     <div className="container">
       <Head>
         <title>User Dashboard</title>
@@ -87,6 +89,7 @@ const ContactPage = () => {
         `}
       </style>
     </div>
+    </>
   );
 };
 

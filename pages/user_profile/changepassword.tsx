@@ -38,8 +38,7 @@ const ContactPage = () => {
             font-size: 18px;
             background-color:  #F5F5F5;
             color: #27004e;
-            padding: 1em;
-            margin: 1em;
+            
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
               Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
               sans-serif;
@@ -54,6 +53,8 @@ const ContactPage = () => {
             flex-direction: column;
             width: 80%;
             grid-row-gap: 1.2em;
+            margin:1em;
+           
           }
           @media (max-width: 769px) {
             .container {

@@ -58,8 +58,7 @@ const ContactPage2 = () => {
             font-size: 18px;
             background-color:  #F5F5F5;
             color: #27004e;
-            padding: 1em;
-            margin: 1em;
+            
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
               Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
               sans-serif;
